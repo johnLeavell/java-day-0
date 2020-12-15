@@ -14,7 +14,6 @@ public class Email {
 		this.firstName = firstName;
 		this.lastName = lastName;
 		System.out.println("Email Created:" + this.firstName + " " + this.lastName);
-		
 	}
 	// Ask for the dept
 	// Generate a random password
