@@ -11,16 +11,24 @@ public class Email {
 	private String alternateEmail;
 	
 	//Constructor to receive firstName and lastName
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6816cf746227d74b2bb84db8ac6aa03b2195de8b
 	public Email(String firstName, String lastName) {
 		this.firstName = firstName;
 		this.lastName = lastName;
 		System.out.println("Email Created:" + this.firstName + " " + this.lastName);
+<<<<<<< HEAD
 		
 		//call a method asking for the dept  - return the dept
 		this.department = setDepartment();
 		System.out.println("Department: " + this.department);
 	}
 	
+=======
+	}
+>>>>>>> 6816cf746227d74b2bb84db8ac6aa03b2195de8b
 	// Ask for the dept
 	private String setDepartment() {
 		System.out.print("Department Codes\n1 for Sales\n2 for Development\n3 for Accounting\n0 for none\nEnter department code:");
